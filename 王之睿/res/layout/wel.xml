@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	
+	
+	android:gravity="center_vertical"
+	android:background="@drawable/room"
+	>
+	
+<!-- 控制游戏开始的按钮 -->
+<Button
+	android:id="@+id/startButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/button_selector" />
+<!-- 控制游戏排行榜的按钮 -->
+<Button
+	android:id="@+id/rangeButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/range" />
+<!-- 控制游戏设置的按钮 -->
+<Button
+	android:id="@+id/setButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/set" 
+	/>
+<!-- 控制游戏退出的按钮 -->
+<Button
+	android:id="@+id/outButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@drawable/out" 
+	/>
+
+</LinearLayout>
